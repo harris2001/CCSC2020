@@ -1,4 +1,5 @@
 # CCSC2020
+![Banner](Banner.PNG)
 ## WriteUps for the Cyprus Cyber Security Challenge
 
 ![Jaskier Challenge](Jaskier.JPG)
