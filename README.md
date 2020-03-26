@@ -11,22 +11,22 @@ ded with an automated Discord bot - Jaskier - which had the following functional
 
 | Jaskier: |
 ==============================
-!frappe
+*!frappe
 Return a frappe for you
 
-!ls
+*!ls
 Returns the contents of the home directory
 
-!pwd
+*!pwd
 Returns the current directory
 
-!viewcode <function>
-Returns the code of the given function. Be careful with that one!
-Available functions: decrypt, hmask, h_rotl, blockify, cnt, revenc, pwd, ls, frappe
+*!viewcode <function>
+*Returns the code of the given function. Be careful with that one!
+*Available functions: decrypt, hmask, h_rotl, blockify, cnt, revenc, pwd, ls, frappe
 
-!revenc <string>
-Reverses an encrypted string
-Example of reversing 'Hello World': !revenc SJVsbG9Ap2+yzGEA|
+*!revenc <string>
+*Reverses an encrypted string
+*Example of reversing 'Hello World': !revenc SJVsbG9Ap2+yzGEA|
 
 Thus I started playing around with these functions
 The result of !ls returned 4 files:
