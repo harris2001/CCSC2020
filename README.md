@@ -11,13 +11,13 @@ ded with an automated Discord bot - Jaskier - which had the following functional
 
 | Jaskier: |
 ==============================
-*!frappe
-Return a frappe for you
+*!frappe*
+*Return a frappe for you*
 
-*!ls
-Returns the contents of the home directory
+*!ls*
+*Returns the contents of the home directory*
 
-*!pwd
+*!pwd*
 Returns the current directory
 
 *!viewcode <function>
