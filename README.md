@@ -1,0 +1,2 @@
+# CCSC2020
+WriteUps for the Cyprus Cyber Security Challenge
