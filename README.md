@@ -8,31 +8,31 @@ ded with an automated Discord bot - Jaskier - which had the following functional
 !help !frappe !ls !pwd !viewcode <function> !revenc <string>
 
 ###!help
-
+```
 | Jaskier: |
 ==============================
-*!frappe*
+!frappe
 
-*Return a frappe for you*
+Return a frappe for you
 
-*!ls*
+!ls
 
-*Returns the contents of the home directory*
+Returns the contents of the home directory
 
-*!pwd*
+!pwd
 
-*Returns the current directory*
+Returns the current directory
 
-*!viewcode <function>*
+!viewcode <function>
   
-*Returns the code of the given function. Be careful with that one!*
-*Available functions: decrypt, hmask, h_rotl, blockify, cnt, revenc, pwd, ls, frappe*
+Returns the code of the given function. Be careful with that one!
+Available functions: decrypt, hmask, h_rotl, blockify, cnt, revenc, pwd, ls, frappe
 
-*!revenc <string>*
+!revenc <string>
   
-*Reverses an encrypted string*
-*Example of reversing 'Hello World': !revenc SJVsbG9Ap2+yzGEA|*
-
+Reverses an encrypted string
+Example of reversing 'Hello World': !revenc SJVsbG9Ap2+yzGEA|
+```
 Thus I started playing around with these functions
 The result of !ls returned 4 files:
 .bashrc
