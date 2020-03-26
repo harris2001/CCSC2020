@@ -160,8 +160,8 @@ a = base64.b64encode(encrypt(s))
 print(a)
 ```
 We pass the output to the Jaskier bot and we get the flag
-***
+
 !revenc kWtswbSAZmwxx47U2NQ=
-***
+
 flag: CCSC{w1th_g3r4lt_0f_R1via_al0ng_c4me_th1s_b0t}
 ***
