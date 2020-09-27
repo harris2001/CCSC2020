@@ -4,8 +4,7 @@
 
 ![Jaskier Challenge](Jaskier.JPG)
 
-At this challenge, we were 
-ded with an automated Discord bot - Jaskier - which had the following functionalities:
+At this challenge, we were provided with an automated Discord bot - Jaskier - which had the following functionalities:
 !help !frappe !ls !pwd !viewcode <function> !revenc <string>
 
 ### !help
@@ -98,7 +97,7 @@ def revenc(ctx, params):
         print(e)
         await ctx.channel.send("Ops, something went wrong..")  
 ```
-This particular line caught my attention, since it was passing the result of the decryption function into a subprosess as a variable {dec_in} via shell (shell = True)! 
+This particular line caught my attention, since it was passing the result of the decryption function into a subprocess as a variable {dec_in} via shell (shell = True)! 
 ```python 
         getResult = subprocess.Popen(f'echo {dec_in} | rev', shell=True, stdout=subprocess.PIPE).stdout
 ```
